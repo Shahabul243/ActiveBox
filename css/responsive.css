@@ -1,0 +1,30 @@
+
+
+
+@media screen (min-width: 320px) and (max-width: 480px){
+/* for mobile */
+
+/* banner section */
+.banner {
+    padding: 23px 0px;
+}
+
+
+}
+
+
+
+@media screen (min-width: 481px) and (max-width: 786px){
+    /* for tab */
+    
+    
+}
+
+
+
+
+@media screen (min-width: 787px) and (max-width: 1200px){
+        /* for medium device */
+        
+        
+}

@@ -1,0 +1,349 @@
+
+
+
+@import"extra.css";
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section */
+
+.header-section{
+    background: url(../image/banner.png) center top no-repeat;
+    background-size: cover;
+}
+
+
+.logo{}
+.logo img {
+    width: 20%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.menubar{
+    border-bottom: 1px solid #eee;
+}
+
+.nav{}
+.nav ul{}
+.nav ul li {
+    display: inline-block;
+    margin-top: 10px;
+}
+.nav ul li a {
+    display: inline-block;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+.nav ul li a :hover{}
+
+
+/* banner */
+
+.banner{
+    padding: 100px 0px;
+}
+
+.banner h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 42px;
+}
+.banner p{
+    width: 38%;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.banner .b-sec{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.banner .b-sec a{
+    padding: 10px 20px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #fff;
+    background-color: red;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.banner .b-sec a:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+
+/* testimoiyal section */
+
+.testimoiyal{
+    padding:33px 0px;
+    background-color: #fff;
+}
+
+.inner-test{
+    text-align: center;
+}
+.inner-test .icon{
+    margin-top: 27px;
+}
+.inner-test .icon .fa{
+    font-size: 82px;
+    color: red;
+}
+.inner-test .icon .card {
+    border: none;
+}
+.inner-test .icon .card h4 {
+    font-size: 15px;
+    margin-top: 11px;
+}
+.inner-test .icon .card p {
+    width: 84%;
+    margin: 0 auto;
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+/* photo section css */
+.photo{
+    padding: 34px 0;
+}
+.photo .inner-p{
+    position: relative;
+}
+
+.photo .inner-p img {
+    width: 285px;
+    height: 199px;
+    border: 1px solid #eee;
+}
+
+.photo .inner-p .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 0, 0, .4);
+    width: 110%;
+    height: 100%;
+    display: none;
+}
+
+.photo .inner-p .overlay .content {
+    text-align: center;
+    margin-top: 83px;
+}
+
+.photo .inner-p .overlay .content h6 {
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.photo .inner-p .overlay .content p {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.photo .inner-p:hover .overlay{
+    display: block;
+}
+
+
+/* details section css code */
+.details{
+    padding: 50px 0;
+    background-color: #fff;
+}
+.details .inner-d{}
+.details .inner-d .image{}
+.details .inner-d .image .card {
+    border: none;
+}
+.details .inner-d .image .card .card-content {
+    padding: 11px 0px;
+}
+.details .inner-d .image .card .card-content h5 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 14px;
+    margin-top: 12px;
+}
+.details .inner-d .image .card .card-content h6 {
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 500;
+    color: red;
+}
+.details .inner-d .image .card .card-content p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: gray;
+    margin-top: 32px;
+}
+
+.details .inner-d ul {
+    padding: 0;
+    margin: 0;
+}
+.details .inner-d ul li{
+    display: inline-block;
+}
+.details .inner-d ul li a {
+    display: inline-block;
+    font-size: 17px;
+    color: #eee;
+    border: 1px solid #000;
+    padding: 5px 12px;
+    line-height: 23px;
+}
+
+
+/* client css */
+
+.client{
+    padding: 20px 0;
+}
+
+.client .image{}
+.client .image img{
+    max-width: 100%;
+}
+
+.client-img img{
+    width: 100%;
+    height: 289px;
+}
+
+.about-c {
+    padding: 45px 0px;
+    text-align: center;
+}
+.about-c h4 {
+    font-size: 23px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.about-c p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1b1818;
+}
+
+.botton{
+    margin-top: 30px;
+}
+
+.botton a{
+    color: #fff;
+}
+
+/* contact-us section css */
+.contact-us {
+    padding: 11px 0;
+    background-color: #3a3e64;
+}
+
+.inner-c{
+    text-align: center;
+}
+.inner-c h5 {
+    font-size: 15px;
+    color: #fff;
+}
+.inner-c p {
+    color: #eee;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.inner-c h6 {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.inner-c .social-i{
+    text-align: center;
+}
+.inner-c .social-i ul {
+    margin-top: 17px;
+    margin-left: -31px;
+}
+.inner-c .social-i ul li{
+    list-style: none;
+    display: inline-block;
+}
+.inner-c .social-i ul li a {
+    font-size: 15px;
+    padding: 5px 11px;
+    line-height: 26px;
+    border: 1px solid #eee;
+    color: #eee;
+}
+
+.inner-c .text-1 {
+    font-size: 14px;
+    color: #eee;
+    text-transform: uppercase;
+}
+.inner-c .fotter-p {
+    width: 83%;
+    margin: 0 auto;
+    font-size: 11px;
+}
+
+/* footer css */
+.footer-s{
+    background-color: #313454;
+}
+.footer-s .inner-f {
+    text-align: center;
+}
+.footer-s .inner-f p{
+    color: #5b5c6a;
+    font-size: 15px;
+}
+.footer-s .inner-f p span {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer-s .inner-f p .fa {
+    font-size: 21px;
+    margin: 0px 7px;
+    color: red;
+}
